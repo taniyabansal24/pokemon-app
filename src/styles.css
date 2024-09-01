@@ -1,0 +1,29 @@
+.search-input {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .pokemon-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 20px;
+  }
+  
+  .pokemon-card {
+    padding: 10px;
+    text-align: center;
+    border: 2px solid #eee;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .pokemon-card img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
