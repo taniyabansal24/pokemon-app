@@ -5,7 +5,7 @@ import PokemonList from './PokemonList';
 function App() {
   return (
     <div className="App">
-      <h1>Pokémon List</h1>
+      <h1>Pokemon List</h1>
       <PokemonList />
     </div>
   );
